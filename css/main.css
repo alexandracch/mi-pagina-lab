@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
   }
 
@@ -86,4 +86,9 @@ p {
 .artist {
     width: 25vh;
     height: auto ;
+}
+
+.text-indent {
+    text-indent:15px;
+    text-align: justify;
 }
