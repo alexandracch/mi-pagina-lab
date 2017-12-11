@@ -27,7 +27,7 @@ li {
   }
 
 a {
-    color: rgb(34, 34, 34);  
+    color: #ffffff;  
     text-decoration: none;
   }
 
@@ -48,16 +48,42 @@ ul li {
     display: none;
 }
 
+.title:hover, button:hover {
+    cursor: pointer;
+}
+
 /*Clases reutilizables*/
 .title {
     color:white;
     font-size: 4rem;
 }
+
 .text-center {
     text-align: center;
 }
 
 .bg-reverse {
-    background-color: #fcfcfc;
-    color: #313131;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+button {
+    color: white;
+    background-color: rgb(147, 200, 224);
+    border: none;
+    padding: 10px 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+p {
+   padding: 20px 0px;  
+}
+
+.artist {
+    width: 25vh;
+    height: auto ;
 }
