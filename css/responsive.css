@@ -1,2 +1,24 @@
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .view-desktop {
+        display: none;
+    }
+    
+    .view-mobile {
+        display: block;
+    }
+    
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .view-desktop {
+        display: none;
+    }
+    
+    .view-mobile {
+        display: block;
+    }
+}
 
  
